@@ -12,7 +12,8 @@
 
 body {
   font-family: Montserrat, sans-serif;
-  color: #000000;
+  color: #00abdf; /* Alterado de #000000 para branco */
+  background-color: #000000; /* Adicionado fundo preto */
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -135,7 +136,7 @@ figcaption {
 
 .divider {
   height: 1px;
-  background-color: #eee;
+  background-color: #00b3c0;
 }
 
 .styleguide-content-wrap {
@@ -159,7 +160,7 @@ figcaption {
 }
 
 .section.cc-store-home-wrap {
-  background-color: #fff;
+  background-color: #000000000000;
 }
 
 .styleguide-block {
@@ -218,7 +219,7 @@ figcaption {
 .button {
   padding: 12px 25px;
   border-radius: 12px;
-  background-color: #fe5f03;
+  background-color: #f0c400;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   color: #000;
@@ -231,12 +232,12 @@ figcaption {
 
 .button:hover {
   border: 1px solid #000;
-  background-color: #fff;
+  background-color: #000000;
   outline-color: #000;
   outline-offset: 0px;
   outline-style: solid;
   outline-width: 3px;
-  color: #fff;
+  color: #000000;
 }
 
 .button:active {
@@ -254,7 +255,7 @@ figcaption {
   margin-right: auto;
   margin-left: auto;
   border-radius: 12px;
-  background-color: #fe5f03;
+  background-color: #f0c400;
   color: #000;
 }
 
@@ -278,11 +279,11 @@ figcaption {
 .button.cc-contact-us {
   position: relative;
   z-index: 5;
-  background-color: #fe5f03;
+  background-color: #f0c400;
 }
 
 .button.cc-contact-us:hover {
-  background-color: #fff;
+  background-color: #000000;
   outline-color: #000;
   outline-offset: 0px;
   outline-style: solid;
@@ -371,7 +372,7 @@ figcaption {
 
 .heading-jumbo-small {
   margin: auto auto 15px;
-  color: #000;
+  color: #00dce4;
   font-size: 36px;
   line-height: 50px;
   font-weight: 400;
@@ -404,9 +405,9 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #fff;
-  background-color: #fff;
-  color: #fff;
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #000000;
   text-align: center;
 }
 
@@ -497,7 +498,7 @@ figcaption {
 }
 
 .navigation-item:hover {
-  border-bottom: 1px solid #fe5f03;
+  border-bottom: 1px solid #f0c400;
   opacity: 0.9;
   outline-color: #32343a;
   outline-offset: 0px;
@@ -631,16 +632,16 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fff;
-  color: #fff;
+  background-color: #000000;
+  color: #000000;
   text-align: right;
 }
 
 .intro-header.cc-subpage {
   height: 200px;
-  background-color: #fff;
+  background-color: #000000;
   background-image: none;
-  color: #fff;
+  color: #000000;
   -o-object-fit: scale-down;
   object-fit: scale-down;
 }
@@ -699,7 +700,7 @@ figcaption {
 .status-message {
   padding: 9px 30px;
   background-color: #202020;
-  color: #fff;
+  color: #000000;
   font-size: 14px;
   line-height: 26px;
   text-align: center;
@@ -723,7 +724,7 @@ figcaption {
   padding: 45px 50px 50px;
   border-style: solid;
   border-width: 1px;
-  border-color: #eee;
+  border-color: #00b3c0;
 }
 
 .contact-form-grid {
@@ -999,7 +1000,7 @@ figcaption {
   background-image: url('../images/portfolio-1---wide.svg');
   background-position: 50% 50%;
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 
 .project-overview-header.cc-project-2-header {
@@ -1181,7 +1182,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 
@@ -1206,7 +1207,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 ._404-content-wrap {
@@ -1338,7 +1339,7 @@ figcaption {
   position: relative;
   padding: 50px 30px 15px;
   border-bottom: 1px solid #e4ebf3;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .container-2 {
@@ -1415,7 +1416,7 @@ figcaption {
 .footer-link {
   margin-top: 12px;
   margin-bottom: 6px;
-  color: #1a1b1f;
+  color: #ffffff;
   font-size: 14px;
   line-height: 16px;
   text-decoration: none;
@@ -1648,7 +1649,7 @@ figcaption {
   position: relative;
   padding: 60px 30px;
   border-bottom: 1px solid #e4ebf3;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .features-wrapper {
@@ -1881,7 +1882,7 @@ figcaption {
   background-image: url('../images/portfolio-1---wide.svg');
   background-position: 50% 50%;
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 
 .project-overview-header-copy.cc-project-2-header {
@@ -1895,7 +1896,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #000000;
   background-image: none;
 }
 
@@ -1925,7 +1926,7 @@ figcaption {
 }
 
 .section-copy.cc-store-home-wrap {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .our-services-grid-copy {
@@ -1999,7 +2000,7 @@ figcaption {
 }
 
 .navigation-item-copy:hover {
-  border-bottom: 1px solid #fe5f03;
+  border-bottom: 1px solid #f0c400;
   opacity: 0.9;
   outline-color: #32343a;
   outline-offset: 0px;
@@ -2172,7 +2173,7 @@ figcaption {
 
 .nav-dropdown-list {
   border-radius: 12px;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .nav-dropdown-list.w--open {
@@ -2225,7 +2226,7 @@ figcaption {
   background-color: #1a1b1f;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
-  color: #fff;
+  color: #000000;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
@@ -2234,7 +2235,7 @@ figcaption {
 
 .button-primary:hover {
   background-color: #32343a;
-  color: #fff;
+  color: #000000;
 }
 
 .button-primary:active {
@@ -2468,7 +2469,7 @@ figcaption {
   }
 
   .heading-jumbo-small {
-    color: #000;
+    color: #0084c2;
   }
 
   .motto-wrap {
@@ -2476,7 +2477,7 @@ figcaption {
   }
 
   .project-overview-header.cc-project-3-header {
-    background-color: #fff;
+    background-color: #000000;
     background-image: none;
   }
 
@@ -2510,7 +2511,7 @@ figcaption {
     top: 0%;
     right: 0%;
     bottom: auto;
-    color: #fff;
+    color: #0099ad;
     text-align: center;
   }
 
@@ -2537,7 +2538,7 @@ figcaption {
   }
 
   .project-overview-header-copy.cc-project-3-header {
-    background-color: #fff;
+    background-color: #000000;
     background-image: none;
   }
 
@@ -2612,7 +2613,7 @@ figcaption {
   }
 
   .navigation-wrap {
-    background-color: #fff;
+    background-color: #000000;
   }
 
   .navigation {
@@ -2643,7 +2644,7 @@ figcaption {
   }
 
   .navigation-items {
-    background-color: #fff;
+    background-color: #000000;
   }
 
   .cta-text {
@@ -2951,7 +2952,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #000000;
     box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.05);
   }
 
@@ -2970,7 +2971,7 @@ figcaption {
 
   .menu-button-2.w--open {
     background-color: #a6b1bf;
-    color: #fff;
+    color: #000000;
   }
 
   .nav-menu-wrapper {
@@ -2993,7 +2994,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #000000;
   }
 
   .nav-button-wrapper {
@@ -3019,7 +3020,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #000000;
     box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.05);
   }
 }
@@ -3912,7 +3913,7 @@ figcaption {
   grid-row-end: 2;
 }
 
-#w-node-_421df62a-c217-12af-eee8-27f88a387918-252110e5 {
+#w-node-_421df62a-c217-12af-00b3c08-27f88a387918-252110e5 {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -3923,7 +3924,7 @@ figcaption {
   grid-row-end: 2;
 }
 
-#w-node-_421df62a-c217-12af-eee8-27f88a387928-252110e5 {
+#w-node-_421df62a-c217-12af-00b3c08-27f88a387928-252110e5 {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -4201,7 +4202,7 @@ figcaption {
     grid-row-end: 3;
   }
 
-  #w-node-_421df62a-c217-12af-eee8-27f88a387928-252110e5 {
+  #w-node-_421df62a-c217-12af-00b3c08-27f88a387928-252110e5 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -4348,4 +4349,5 @@ figcaption {
     grid-row-end: span 1;
   }
 }
+
 
